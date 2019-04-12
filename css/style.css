@@ -50,7 +50,7 @@ li {
 }
 
 .card-body h5 {
-	padding: 10px;
+	padding-top: 20px;
 	font-size: 25px;
 	font-family: 'Mina', sans-serif;
 }
@@ -65,7 +65,7 @@ li {
 }
 
 .card-body p {
-	padding: 10px 0;
+	padding-bottom: 20px;
 }
 
 .btn {
