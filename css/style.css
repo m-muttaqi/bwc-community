@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Mina');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+li {
+	list-style: none;
+}
+
+#header {
+	background: url('../img/cover.jpg') 50% 50% no-repeat;
+	padding: 100px 0;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 1;
+}
+
+#header div {
+	z-index: 9999;
+}
+
+#header div div h1 {
+	font-family: 'Mina', sans-serif;
+	color: #fff;
+	z-index: 99999;
+}
+
+.card {
+	margin: 50px auto;
+	padding: 0;
+	transition: .4s;
+}
+
+.card:hover {
+	box-shadow: 0px 0px 40px 15px #000;
+}
+
+.card-body {
+	padding: 0;
+}
+
+.card-body img {
+	width: 100%;
+}
+
+.card-body h5 {
+	padding: 10px;
+	font-size: 25px;
+	font-family: 'Mina', sans-serif;
+}
+
+.card-body h5 a {
+	color: #000;
+	transition: .2s;
+}
+
+.card-body h5 a:hover {
+	color: #3498db;
+}
+
+.card-body p {
+	padding: 10px 0;
+}
+
+.btn {
+	margin-bottom: 20px;
+	padding-left: 40px; 
+	padding-right: 40px;
+}
